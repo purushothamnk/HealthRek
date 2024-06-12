@@ -1,0 +1,92 @@
+/* Add these styles to your existing Navbar.css file */
+/* Add these styles to your existing Navbar.css file */
+
+@media (max-width: 909px) {
+    .navbar {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background: #fff;
+      box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    }
+  
+    .navbar a {
+      margin-left: 0;
+      padding: 1rem;
+    }
+  
+    .navbar.show {
+      display: flex;
+    }
+  
+    #menu-btn {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  
+  /* New styles for screens smaller than 818px */
+  /* @media screen and (max-width: 818px) {
+    .navbar {
+      display: none;
+    }
+  
+    .navbar.show {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background: #fff;
+      box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    }
+  
+    .navbar.show a {
+      margin-left: 0;
+      padding: 1rem;
+    }
+  
+    #menu-btn {
+      display: block;
+    }
+  } */
+  
+  
+    /* @media (min-width:100px){
+  
+      #menu-btn{
+          display: initial;
+      }
+  
+      .header .navbar{
+          position: absolute;
+          top:115%; right: 2rem;
+          border-radius: .5rem;
+          box-shadow: var(--box-shadow);
+          width: 30rem;
+          border: var(--border);
+          background: #fff;
+          transform: scale(0);
+          opacity: 0;
+          transform-origin: top right;
+          transition: none;
+      }
+  
+      .header .navbar.active{
+          transform: scale(1);
+          opacity: 1;
+          transition: .2s ease-out;
+      }
+  
+      .header .navbar a{
+          font-size: 2rem;
+          display: block;
+          margin:2.5rem;
+      }
+  
+  } */
+  
